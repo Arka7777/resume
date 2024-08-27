@@ -26,14 +26,14 @@ export default function Hero() {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-16 lg:text-7xl md:text-4xl font-thin tracking-tight lg:mt-16">
+              className="pb-16 lg:text-7xl text-4xl font-thin tracking-tight lg:mt-16">
                 Arkapravo Biswas
               </motion.h1>
               <motion.span 
               variants={container(0.5)}
               initial="hidden"
               animate="visible"
-              className="bg-gradient-to-r from-pink-500 via-slate-300 to-purple-500 bg-clip-text md:text-3xl lg:text-5xl text-transparent font-normal">
+              className="bg-gradient-to-r from-pink-500 via-slate-300 to-purple-500 bg-clip-text text-3xl lg:text-5xl text-transparent font-normal">
                 Full Stack Developer
               </motion.span>
               <motion.p
@@ -52,7 +52,7 @@ export default function Hero() {
               animate={{x:0, opacity:1}}
               transition={{duration:1,delay:1.2}}
               
-                className="size-[25rem] rounded-xl"
+                className="lg:size-[25rem] size-[15rem] rounded-xl"
                 src={ProfilePic}
                 alt="Arka Biswas"
               />

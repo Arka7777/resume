@@ -18,7 +18,7 @@ export default function About() {
           className="w-full lg:w-1/2 lg:p-8">
             <div className="flex items-center justify-center">
               <img
-                className="rounded-3xl w-[35rem] h-[20rem]"
+                className="rounded-3xl lg:w-[35rem] lg:h-[20rem] w-[17rem] h-[12rem]"
                 src={abt}
                 alt="about"
               />
