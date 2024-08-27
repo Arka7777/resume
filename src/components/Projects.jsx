@@ -41,6 +41,7 @@ export default function Projects() {
                     <span className="mr-2 rounded bg-neutral-900 text-purple-400 text-sm font-medium px-2 py-1 " key={index}>{tech}</span>
                   ))}
                 
+                
               </motion.div>
             </div>
           ))}
